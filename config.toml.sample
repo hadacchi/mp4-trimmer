@@ -1,0 +1,4 @@
+[win]
+ffprobe = "/mnt/c/Users/winuser/Programs/ffmpeg/ffmpeg-4.4.1-win-64/ffprobe.exe"
+avidemux = "/mnt/c/Program Files/Avidemux 2.8 VC++ 64bits/avidemux_cli.exe"
+
