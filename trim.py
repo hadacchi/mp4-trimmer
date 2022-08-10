@@ -65,6 +65,8 @@ if __name__ == '__main__':
 
         sidx = np_key_frames[:,1].searchsorted(s) - 1
         eidx = np_key_frames[:,1].searchsorted(e)
+        if sidx > eidx:
+            raise Exception('invalid input')
 
         print(key_frames[sidx])
         print(key_frames[eidx])
